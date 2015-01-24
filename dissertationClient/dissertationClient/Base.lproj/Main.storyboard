@@ -724,6 +724,9 @@
                                 <rect key="frame" x="14" y="15" width="454" height="192"/>
                                 <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="w1x-cy-jDh">
                                     <font key="font" metaFont="system"/>
+                                    <string key="placeholderString">© 2015 Sam Heather - Build id 0008
+
+Used under licence from pingWHEN</string>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>

@@ -22,8 +22,9 @@ NSMutableData *_responseData;
 }
 
 -(IBAction)sendQuery:(id)sender {
+    [responseField setStringValue:@"Processing..."];
     [self transmitThisDictAsJson:@{
-                                   @"userNumber" : [numberField stringValue],
+                                   @"cellNumber" : [numberField stringValue],
                                    @"questionParam1" : [questionParam1Field stringValue],
                                    @"questionParam2" : [questionParam2Field stringValue]}];
 }
