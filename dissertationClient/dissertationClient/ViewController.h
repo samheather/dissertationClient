@@ -10,8 +10,7 @@
 
 @interface ViewController : NSViewController {
     IBOutlet NSTextField *numberField;
-    IBOutlet NSTextField *questionParam1Field;
-    IBOutlet NSTextField *questionParam2Field;
+    IBOutlet NSTextField *questionField;
     IBOutlet NSTextField *responseField;
 }
 

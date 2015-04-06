@@ -25,8 +25,7 @@ NSMutableData *_responseData;
     [responseField setStringValue:@"Processing..."];
     [self transmitThisDictAsJson:@{
                                    @"cellNumber" : [numberField stringValue],
-                                   @"questionParam1" : [questionParam1Field stringValue],
-                                   @"questionParam2" : [questionParam2Field stringValue]}];
+                                   @"question" : [questionField stringValue]}];
 }
 
 #pragma mark - Network stuff
